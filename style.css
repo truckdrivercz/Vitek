@@ -38,10 +38,6 @@ p {
     background-attachment: fixed;
 }
 
-body {
-    margin: 0px;
-}
-
 #box1 {
     border: 5px outset;
     width: 250px;
