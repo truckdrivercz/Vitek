@@ -1,73 +1,57 @@
-* {
+*{
     margin: 0;
     padding: 0;
 }
-
-body {
-    background-color: rgb(36, 25, 22);
-    background-image: url("https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70010000000964/a28a81253e919298beab2295e39a56b7a5140ef15abdb56135655e5c221b2a3a");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
+body{
+    background: black;
 }
 
-h1 {
-    color: rgb(255, 255, 255);
-    font-family: sans-serif;
-    font-weight: bolder;
-    font-style: italic;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+.wrap {
+    border: 5px solid gold;
+    border-radius: 7px;
+    font-size: 20px;
+    padding: 10px;
+    background-color: rgb(63, 63, 63);
+    margin-left: 10px;
+    margin-top: 0px;
+    color: white;
+}
+
+.box1{
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    padding: 10px;
+}
+
+.box1 img{
+    width: 30px;
+}
+
+.box2{
+    display: flex;
     align-items: center;
-}
-
-p {
-    color: rgb(255, 255, 255);
-    background-color: rgb(66, 66, 66);
-    font-family: sans-serif;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
     font-weight: bold;
-    border-style: outset;
-    border-width: 4px;
-    border-color: gold;
-    border-radius: 10px;
-    padding: 5px;
-    background: linear-gradient(to right, rgb(96, 179, 124), lightgreen);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 
-#box1 {
-    border: 5px outset;
-    width: 250px;
-    height: 250px;
+.box2 img{
+    background-image: url(channels4_banner.jpg);
+    background-size: 100%;
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: gray;
+    padding: auto;
+    z-index: 9999;
+}
+
+.about p{
     font-size: 20px;
-    padding: 10px;
-    background-color: red;
-    margin-left: 300px;
-    margin-top: -280px;
-    animation: mySlide;
-    animation-duration: 4s;
-}
-
-#box2 {
-    border: 5px outset;
-    width: 250px;
-    height: 250px;
-    font-size: 20px;
-    padding: 10px;
-    background-color: rgb(114, 37, 202);
-    animation: mySlide;
-    animation-duration: 4s;
-}
-
-@keyframes mySlide {
-    from {
-        margin-left: 100%;
-    }
-
-    to {
-        margin-left: 30;
-    }
 }
